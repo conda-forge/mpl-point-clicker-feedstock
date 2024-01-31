@@ -1,5 +1,5 @@
 {% set name = "mpl-point-clicker" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mpl_point_clicker-{{ version }}.tar.gz
-  sha256: 91211ac44a9aab38522e435bf1d861c9844bdab2a1f00edd58530ffc940f4a66
+  sha256: 61c65491968a28c2197e181848d5a4ec99281901b7ca73b6a573d91cebb3eb52
 
 build:
   noarch: python
